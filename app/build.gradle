@@ -8,13 +8,13 @@ android {
             keyPassword '123'
         }
     }
-    compileSdkVersion 33
+    compileSdkVersion 34
     defaultConfig {
         applicationId "com.nikunj.ZZZStickers"
-        minSdkVersion 19
-        targetSdkVersion 33
-        versionCode 1
-        versionName "1"
+        minSdkVersion 21
+        targetSdkVersion 34
+        versionCode 9
+        versionName "9"
         testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
         def contentProviderAuthority = applicationId + ".stickercontentprovider"
         // Creates a placeholder property to use in the manifest.
